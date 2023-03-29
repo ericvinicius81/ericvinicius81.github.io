@@ -1,10 +1,33 @@
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    padding: 2%;
+    font-family: 'Inter', sans-serif;
 }
-p {
-    font-family: Arial, Helvetica, sans-serif;
+
+#meu-nome {
+    text-align: center;
 }
+
+#minha-foto {
+    float: left;
+    height: 230px;
+    padding: 10px;
+    background-color: #1eb720;
+}
+
+#image-container {
+    height: 250px;
+    position: relative;
+}
+
+#descricao {
+    text-align: justify;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    padding: 20px;
+}
+
 #trybe {
     font-size: 22px;
-    color: aquamarine;
+    color: #1eb720;
 }
