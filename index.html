@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    </style>
 </head>
 <body>
-    <h1>Eric Vinícius Campos</h1>
-    <p>Sou Desenvolvedor Web e formado em Engenharia Civil. Após alguns anos de experiência profissional na área das Telecomunicações e da Engenharia Civil, decidi fazer uma transição de carreira e voltei a estudar em 2021. Sempre gostei dos assuntos relacionados à tecnologia e optei fazer o curso de <strong><em>Desenvolvimento Web Full Stack da Trybe.</strong></em></p>
-    <p><strong>Belo Horizonte - MG</strong></p>
+    <div>
+        <h1 id="meu-nome">Eric Vinícius Campos</h1>
+        <div id="image-container">
+            <img src="eric.jpg" id="minha-foto" alt="Foto de Eric">
+            <p id="descricao">Sou Desenvolvedor Web e formado em Engenharia Civil. Após alguns anos de experiência profissional na área das Telecomunicações e da Engenharia Civil, decidi fazer uma transição de carreira e voltei a estudar em 2021. Sempre gostei dos assuntos relacionados à tecnologia e optei fazer o curso de <strong><em>Desenvolvimento Web Full Stack da Trybe.</strong></em></p>
+        </div>
+    </div>
+    <p id="cidade-estado"><strong>Belo Horizonte - MG</strong></p>
     <h2>Habilidades</h2>
-    <ul>
+    <ul id="lista-habilidades">
         <li>HTML / CSS</li>
         <li>Git / Github</li>
         <li>JavaScript</li>
         <li>Jest / RTL</li>
         <li>React (Classes / Hooks / Redux)</li>
+        <li>Node.js / Express</li>
+        <li>SQL / MongoDB</li>
         <li>Metodologias Ágeis</li>
         <li>Soft Skills</li>
     </ul>
-    <img src="eric.jpg" width="200px" alt="Foto de Eric">
+    
     <p id="trybe"><a href="https://www.betrybe.com">Trybe</a></p>
 </body>
 </html>
